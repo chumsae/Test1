@@ -1,0 +1,27 @@
+/* 속성과 값 예제 */
+.daily-title {
+    color: #3498db
+    ;
+}
+
+#oz-link{
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4; /* 배경색 지정 */
+    font-family: Arial; /* 글꼴 지정 */
+}
+
+h1 {
+    color: #333; /* 글자색 지정 */
+}
+
+.task {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#challenge-task{
+    font-weight: bold;
+}
