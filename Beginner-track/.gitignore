@@ -1,0 +1,26 @@
+# 시스템 파일
+.DS_Store
+Thumbs.db
+.zsh_history
+
+# macOS 시스템 폴더
+Library/
+*/Library/
+Caches/
+*/Caches/
+*/Application Support/
+*/.Trash/
+tmp/
+temp/
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+
+# 편집기/IDE 설정
+.vscode/
+.idea/
+*.sublime-*
+.gitconfig
+.lesshst
+.viminfo

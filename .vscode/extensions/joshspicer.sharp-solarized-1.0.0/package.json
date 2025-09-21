@@ -1,0 +1,43 @@
+{
+	"name": "sharp-solarized",
+	"displayName": "Sharp Solarized - Light High Contrast",
+	"description": "Sepia-toned, high-contrast light theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.100.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"vscode:prepublish": "echo 'No build step needed for theme extension'"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.0.0"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "hc-minimal",
+				"label": "High Contrast Minimal",
+				"path": "./fileicons/hc_minimal-icon-theme.json"
+			}
+		],
+		"themes": [
+			{
+				"label": "Sharp Solarized - Light High Contrast",
+				"uiTheme": "hc-light",
+				"path": "./themes/sharp-solarized.json"
+			}
+		]
+	},
+	"repository": "https://github.com/joshspicer/solarized-high-contrast-light.git",
+	"publisher": "joshspicer",
+	"__metadata": {
+		"installedTimestamp": 1757689255437,
+		"targetPlatform": "undefined",
+		"size": 19333
+	}
+}
