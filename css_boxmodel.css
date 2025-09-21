@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  padding: 100px;
+  border: 5px solid rgb(198, 221, 217);
+  margin: 50px;
+}
+
+.units1{
+    font-size: 50px;
+}
+
+.units2{
+    font-size: 10vw;
+}

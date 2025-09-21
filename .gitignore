@@ -1,0 +1,65 @@
+# ========== 시스템 파일 ==========
+.DS_Store
+Thumbs.db
+.zsh_history
+
+# ========== macOS 시스템 폴더 ==========
+Library/
+*/Library/
+Caches/
+*/Caches/
+*/Application Support/
+*/.Trash/
+tmp/
+temp/
+
+# ========== 로그 및 임시 파일 ==========
+*.log
+*.tmp
+
+# ========== 편집기/IDE 설정 ==========
+.vscode/
+.idea/
+*.sublime-*
+.gitconfig
+.lesshst
+.viminfo
+
+# ========== 브라우저 데이터 ==========
+*/Google/
+*/Chrome/
+
+# ========== 사용자 폴더 ==========
+Desktop/
+Documents/
+Downloads/
+Movies/
+Music/
+Pictures/
+
+# ========== 개발 관련 ==========
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+venv/
+.venv/
+
+# 빌드 결과물
+dist/
+build/
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
