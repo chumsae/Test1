@@ -1,0 +1,49 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/admin/Library/Caches/typescript/5.9/.npmrc
+5 silly config load:file:/Users/admin/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/react@ts5.9
+8 verbose argv "install" "--ignore-scripts" "@types/react@ts5.9" "--save-dev" "--user-agent" "typesInstaller/5.9.2"
+9 verbose logfile logs-max:10 dir:/Users/admin/.npm/_logs/2025-09-21T04_41_06_283Z-
+10 verbose logfile /Users/admin/.npm/_logs/2025-09-21T04_41_06_283Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/@types%2freact 120ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest @types/react@19.1.13
+18 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/@types%2freact 83ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+21 silly placeDep ROOT @types/react@19.1.13 OK for:  want: 19.1.13
+22 silly fetch manifest csstype@^3.0.2
+23 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/csstype 33ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+26 silly placeDep ROOT csstype@3.1.3 OK for: @types/react@19.1.13 want: ^3.0.2
+27 silly reify moves {}
+28 silly audit bulk request {
+28 silly audit   'types-registry': [ '0.1.739' ],
+28 silly audit   '@types/react': [ '19.1.13' ],
+28 silly audit   csstype: [ '3.1.3' ]
+28 silly audit }
+29 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.13.tgz 0ms (cache hit)
+30 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 0ms (cache hit)
+31 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.1.13.tgz. Extracting by manifest.
+32 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+33 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.1.13.tgz 90ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 122ms (cache miss)
+35 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 206ms
+36 silly audit report {}
+37 silly ADD node_modules/csstype
+38 silly ADD node_modules/@types/react
+39 verbose cwd /Users/admin/Library/Caches/typescript/5.9
+40 verbose os Darwin 24.6.0
+41 verbose node v22.19.0
+42 verbose npm  v10.9.3
+43 verbose exit 0
+44 info ok
